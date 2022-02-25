@@ -1,0 +1,7 @@
+git clone + el link del repositorio en cual quiero que se suban para crear el repositorio
+git add . = esto para seleccionar todos los archivos que quiero subir del repositorio
+git commit -m "texto del commit"- esto para subir el archivo
+git push origin main- esto para subir la rama principal en la que estoy trabajando
+
+
+
