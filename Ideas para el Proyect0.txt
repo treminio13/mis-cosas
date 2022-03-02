@@ -1,0 +1,7 @@
+titulo de la pagina--????¿¿¿¿¿
+Acerca de mi-- pagina central o inicio, esta con un resumen de las siguientes paginas html, dando como un introduccion
+de los pasatiempos, estudios y alguna que otra meta.
+-league of legends-- sub pagina que hable acerca de este pasatiempo con algunas imagenes y videos de este juego.
+-Musica-- sub pagina que hable acerca de los gustos musicales en su mayoria de los generos con algunos ejemplos.
+-Series-- 	"" que hable acerca de algunas series que he visto con algunas imagenes, aqui puedo incluir algun anime.
+ 
