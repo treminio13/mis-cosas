@@ -1,0 +1,2 @@
+el archivo scss le copias el relative path 
+-- en la terminal escribis sass pegas ese relaive path y luego pegas otra ves ese relative path pero con la extension css

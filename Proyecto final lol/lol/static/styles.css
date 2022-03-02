@@ -1,0 +1,113 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: x-large;
+}
+
+body
+{
+    background-image: url(https://www.xtrafondos.com/wallpapers/league-of-legends-world-2020-6213.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: url(https://images.contentstack.io/v3/assets/blt731acb…61799ab32378d322b0633c98/Arc_EnemyMV_Textless.jpg)*/
+    /*background-color: black;*/
+}
+
+.textos
+{
+    color: white;
+}
+
+.textos2
+{
+    color: 	#000000;
+}
+
+.navbar-light .navbar-nav .nav-link/* barra de navegacion estilos*/
+{
+    color: white;
+}
+
+.navbar-light:hover .navbar-nav:hover .nav-link:hover/* color de las letras al pasar con el raton en la barra de navegacion*/
+{
+    color: green;
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    font-size: large;
+
+}
+
+/* colores de la etiqueta del index*/
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+/*nav .navbar-brand .green
+{
+    color: #2e944b;
+}*/
+
+.border/*borde de la barra de navegacion*/
+{
+    border: 1px solid #1b1e21!important;
+}
+
+.bg-light {    /*color negro de navbar*/
+    background-color: #212529!important;
+}
+
+main .form-control
+{
+    /* controla el crecimiento de la imagen al reducir la pantalla*/
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls*/
+    width: auto;
+}
+
+main/*no se aun para que*/
+{
+    /* scroll horizontally as needed*/
+    overflow-x: auto;
+
+    /* center contents*/
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+.caja
+{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 60px );
+    -webkit-backdrop-filter: blur( 80px );
+    border-radius: 60px;
+    height:100%;
+    width: 100%;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.login
+{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: min-content;
+}
