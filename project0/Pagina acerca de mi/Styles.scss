@@ -1,0 +1,67 @@
+$color:#7caf00;
+body{
+    background-color: $color;
+}
+
+$font: x-large;
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: $font;
+}
+
+$colorNav:#ffffff;
+.navbar-light .navbar-nav .nav-link/* barra de navegacion estilos*/
+{
+    color: $colorNav;
+}
+
+$hover:#00d83a;
+.navbar-light:hover .navbar-nav:hover .nav-link:hover/* color de las letras al pasar con el raton en la barra de navegacion*/
+{
+    color: $hover;
+}
+
+$fontSize: large;
+.navbar-light .navbar-nav .nav-link
+{
+    font-size: $fontSize;
+
+}
+
+/* colores de la etiqueta del index*/
+$navBrand:#537fbe;
+nav .navbar-brand .blue
+{
+    color: $navBrand;
+}
+
+$navred: #ea433b;
+nav .navbar-brand .red
+{
+    color: $navred;
+}
+
+$navyellow : #f5b82e;
+nav .navbar-brand .yellow
+{
+    color: $navyellow;
+}
+
+$bordeNav: 1px solid #1b1e21!important;
+.border/*borde de la barra de navegacion*/
+{
+    border: $bordeNav;
+}
+
+.bg-light {    /*color negro de navbar*/
+    background-color: #212529!important;
+}
+main .form-control
+{
+    /* controla el crecimiento de la imagen al reducir la pantalla*/
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls*/
+    width: auto;
+}
