@@ -1,13 +1,33 @@
-$color:#7caf00;
+$color:#b4b4b4;
 body{
     background-color: $color;
 }
+$back:rgba( 255, 255, 255, 0.25 );
+$box: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+$backdrop:blur( 60px );
+$-webkit:blur( 80px );
+$border-radi: 100px;
+$border:1px solid rgba( 255, 255, 255, 0.18 );
+.caja
+{
+    background: $back;
+    box-shadow: $box;
+    backdrop-filter: $backdrop;
+    -webkit-backdrop-filter:$-webkit;
+    border-radius: $border-radi;
+    height:100%;
+    width: 100%;
+    border:$border;
+
+}
 
 $font: x-large;
+$margin: center auto;
 nav .navbar-brand
 {
     /* size for brand */
     font-size: $font;
+    margin: $margin;
 }
 
 $colorNav:#ffffff;
@@ -22,7 +42,7 @@ $hover:#00d83a;
     color: $hover;
 }
 
-$fontSize: large;
+$fontSize: x-large;
 .navbar-light .navbar-nav .nav-link
 {
     font-size: $fontSize;
@@ -30,7 +50,7 @@ $fontSize: large;
 }
 
 /* colores de la etiqueta del index*/
-$navBrand:#537fbe;
+$navBrand:#1740c991;
 nav .navbar-brand .blue
 {
     color: $navBrand;
@@ -42,21 +62,25 @@ nav .navbar-brand .red
     color: $navred;
 }
 
-$navyellow : #f5b82e;
-nav .navbar-brand .yellow
+$navyellow : #da7a0d;
+nav .navbar-brand .orange
 {
     color: $navyellow;
 }
 
-$bordeNav: 1px solid #1b1e21!important;
-.border/*borde de la barra de navegacion*/
+$bordeNav: 500px #25b143!important;
+
+.border/*borde de la barra de navegacion */
 {
     border: $bordeNav;
 }
-
+ 
+$bglight: #212529!important;
 .bg-light {    /*color negro de navbar*/
-    background-color: #212529!important;
+    background-color: $bglight;
 }
+
+
 main .form-control
 {
     /* controla el crecimiento de la imagen al reducir la pantalla*/
