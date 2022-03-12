@@ -1,0 +1,71 @@
+$image:  url("https://support-leagueoflegends.riotgames.com/hc/article_attachments/360080566493/SpiritBlossomYasuo_FINAL.jpg");
+body
+{
+    background-image: $image;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+$bglight: #212529!important;
+.bg-light {    /*color negro de navbar*/
+    background-color: $bglight;
+}
+.textos
+{
+    color: rgb(231, 12, 12);
+}
+
+.textos3{
+    color: rgb(17, 228, 69);
+}
+
+.textos2
+{
+    color: 	#030303;
+}
+
+$display:inline-block;
+
+main .form-control
+{
+    /* controla el crecimiento de la imagen al reducir la pantalla*/
+    display: $display;
+
+    /* override Bootstrap's 100% width for form controls*/
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed*/
+    overflow-x: auto;
+
+    /* center contents*/
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+$back:rgba( 255, 255, 255, 0.25 );
+$box: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+$backdrop:blur( 60px );
+$-webkit:blur( 80px );
+$border-radi: 100px;
+$border:1px solid rgba( 255, 255, 255, 0.18 );
+
+.caja
+{
+    background: $back;
+    box-shadow: $box;
+    backdrop-filter: $backdrop;
+    -webkit-backdrop-filter:$-webkit;
+    border-radius: $border-radi;
+    height: 100%;
+    width: 100%;
+    border:$border;
+
+}

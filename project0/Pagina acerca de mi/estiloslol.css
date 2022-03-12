@@ -1,0 +1,54 @@
+body {
+  background-image: url("https://support-leagueoflegends.riotgames.com/hc/article_attachments/360080566493/SpiritBlossomYasuo_FINAL.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-light {
+  /*color negro de navbar*/
+  background-color: #212529 !important;
+}
+
+.textos {
+  color: #e70c0c;
+}
+
+.textos3 {
+  color: #11e445;
+}
+
+.textos2 {
+  color: #030303;
+}
+
+main .form-control {
+  /* controla el crecimiento de la imagen al reducir la pantalla*/
+  display: inline-block;
+  /* override Bootstrap's 100% width for form controls*/
+  width: auto;
+}
+
+main {
+  /* scroll horizontally as needed*/
+  overflow-x: auto;
+  /* center contents*/
+  text-align: center;
+}
+
+main img {
+  /* constrain images on small screens */
+  max-width: 100%;
+}
+
+.caja {
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(80px);
+  border-radius: 100px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+/*# sourceMappingURL=estiloslol.css.map */
